@@ -1,0 +1,114 @@
+/* Random things */
+* {
+  font-family: 'Raleway','Roboto', sans-serif;
+  font-size: 2vh;
+  color: #FFFFFF;
+  box-sizing: border-box;
+}
+* a {
+  color: #FFB7C7;
+}
+body {
+  margin: 0;
+}
+.stylized {
+  font-family: 'Pompiere', serif;
+  font-size: 4em;
+}
+/* Skeleton grid START */
+.grid-main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 5vh 20vh auto 5vh;
+}
+/* Skeleton grid END */
+/* Grid nav START */
+.grid-nav {
+  background: #23272A;
+  grid-row: 1;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+}
+.nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0 1vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.nav-link:hover {
+  color: #FFB7C7;
+}
+[class*="nav-"] {
+  height: 100%;
+  width: 100%;
+}
+.nav-1 {
+  grid-column: 1;
+}
+.nav-2 {
+  grid-column: 2;
+}
+.nav-3 {
+  grid-column: 3;
+}
+/* Grid nav END */
+/* Grid pic START*/
+.grid-pic {
+  background: #2C2F33;
+  grid-row: 2;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background-image: url(assets/sky_cropped_blur.png);
+  background-size: cover;
+}
+/* Grid pic END*/
+/* Grid center START */
+.grid-center {
+  background: #2C2F33;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 10vw 80vw 10vw;
+}
+.center-aside-left {
+  grid-column: 1;
+}
+.center-aside-right {
+  grid-column: 3;
+}
+.center-center {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+/* Center boxes */
+.center-1 {
+  grid-row: 1;
+  text-align: center;
+}
+.center-2 {
+  grid-row: 2;
+  text-align: center;
+}
+/* Grid center END */
+/* Grid footer START */
+.grid-footer {
+  background: #23272A;
+  grid-row: 4;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+.footer {
+  grid-column: 1;
+}
+.footer p {
+  margin: 0;
+}
+.footer-text {
+  text-decoration: none;
+}

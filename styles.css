@@ -1,7 +1,7 @@
 /* Random things */
 * {
   font-family: 'Raleway','Roboto', sans-serif;
-  font-size: 2vh;
+  font-size: 2.3vh;
   color: #FFFFFF;
   box-sizing: border-box;
 }
@@ -13,13 +13,13 @@ body {
 }
 .stylized {
   font-family: 'Pompiere', serif;
-  font-size: 4em;
+  font-size: 8vh;
 }
 /* Skeleton grid START */
 .grid-main {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 5vh 20vh auto 5vh;
+  grid-template-rows: 5vh 25vh auto 5vh;
 }
 /* Skeleton grid END */
 /* Grid nav START */
@@ -58,7 +58,7 @@ body {
 /* Grid nav END */
 /* Grid pic START*/
 .grid-pic {
-  background: #2C2F33;
+  background-color: #2C2F33;
   grid-row: 2;
   display: grid;
   align-items: center;
@@ -69,7 +69,7 @@ body {
 /* Grid pic END*/
 /* Grid center START */
 .grid-content {
-  background: #2C2F33;
+  background-color: #2C2F33;
   grid-row: 3;
   display: grid;
   grid-template-columns: 10vw 80vw 10vw;

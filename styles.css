@@ -63,7 +63,7 @@ body {
   display: grid;
   align-items: center;
   text-align: center;
-  background-image: url(assets/sky_cropped_blur.png);
+  background-image: url(assets/sky_blur.webp);
   background-size: cover;
 }
 /* Grid pic END*/

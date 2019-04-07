@@ -2,43 +2,42 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Jadetsu.eu</title>
+    <meta name="description" content="Personal website of Jadetsu">
+    <meta name="author" content="Aurora Vekkeli">
+    <title>jadetsu.eu</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Pompiere|Raleway" rel="stylesheet">
   </head>
   <body>
-    <div class="grid-main">
-      <div class="grid-nav">
-        <div class="nav-1">
-          <a href="index.html" class="nav-link">Home</a>
-        </div>
-        <div class="nav-2">
-          <a href="about.html" class="nav-link">About</a>
-        </div>
-        <div class="nav-3">
-          <a href="links.html" class="nav-link">Links</a>
-        </div>
-      </div>
-      <div class="grid-pic">
+    <!--Grid container for the whole website-->
+    <main class="grid-main">
+      <!--Grid-based navbar-->
+      <nav class="grid-nav">
+        <div class="nav-1"><a href="index.html" class="nav-link">Home</a></div>
+        <div class="nav-2"><a href="projects.html" class="nav-link">Projects</a></div>
+        <div class="nav-3"><a href="links.html" class="nav-link">Links</a></div>
+      </nav>
+      <!--Header image-->
+      <header class="grid-pic">
         <h1 class="stylized">Aurora Vekkeli</h1>
-      </div>
-      <div class="grid-center">
-        <div class="center-aside-left"></div>
-        <div class="center-center">
-          <div class="center-1">
-            <p>Placeholder text</p>
-          </div>
-          <div class="center-2">
-            <p>Placeholder text 2</p>
-          </div>
-        </div>
-        <div class="center-aside-right"></div>
-      </div>
-      <div class="grid-footer">
+      </header>
+      <!--Main content area-->
+      <section class="grid-content">
+        <aside class="aside-left"></aside>
+        <article class="center-1">
+          <p>Placeholder text</p>
+        </article>
+        <article class="center-2">
+          <p>Placeholder text 2</p>
+        </article>
+        <aside class="aside-right"></aside>
+      </section>
+      <!--Footer-->
+      <footer class="grid-footer">
         <div class="footer">
           <p>Made by <a href="https://twitter.com/jadetsuwi" class="footer-text">@Jadetsuwi</a></p>
         </div>
-      </div>
-    </div>
+      </footer>
+    </main>
   </body>
 </html>

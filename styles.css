@@ -1,9 +1,9 @@
 /* Random things */
 * {
+  box-sizing: border-box;
+  color: #FFFFFF;
   font-family: 'Raleway','Roboto', sans-serif;
   font-size: 2.3vh;
-  color: #FFFFFF;
-  box-sizing: border-box;
 }
 * a {
   color: #FFB7C7;
@@ -24,20 +24,20 @@ body {
 /* Skeleton grid END */
 /* Grid nav START */
 .grid-nav {
-  background: #23272A;
-  grid-row: 1;
-  display: grid;
   align-items: center;
+  background: #23272A;
+  display: grid;
+  grid-row: 1;
+  justify-content: flex-end;
   text-align: center;
-  justify-content: end;
 }
 .nav-link {
+  align-content: center;
   color: #FFFFFF;
-  text-decoration: none;
-  padding: 0 1vw;
   display: grid;
   justify-content: center;
-  align-content: center;
+  padding: 0 1vw;
+  text-decoration: none;
 }
 .nav-link:hover {
   color: #FFB7C7;
@@ -58,20 +58,20 @@ body {
 /* Grid nav END */
 /* Grid pic START*/
 .grid-pic {
-  background-color: #2C2F33;
-  grid-row: 2;
-  display: grid;
   align-items: center;
-  text-align: center;
+  background-color: #2C2F33;
   background-image: url(assets/sky_blur.webp);
   background-size: cover;
+  display: grid;
+  grid-row: 2;
+  text-align: center;
 }
 /* Grid pic END*/
 /* Grid center START */
 .grid-content {
   background-color: #2C2F33;
-  grid-row: 3;
   display: grid;
+  grid-row: 3;
   grid-template-columns: 10vw 80vw 10vw;
   grid-template-rows: auto auto;
 }
@@ -88,8 +88,8 @@ body {
 /* Center boxes */
 .center-1, .center-2 {
   grid-column: 2;
-  text-align: left;
   padding: 1vh 5vw;
+  text-align: left;
 }
 .center-1 {
   grid-row: 1;
@@ -100,10 +100,10 @@ body {
 /* Grid center END */
 /* Grid footer START */
 .grid-footer {
-  background: #23272A;
-  grid-row: 4;
-  display: grid;
   align-items: center;
+  background: #23272A;
+  display: grid;
+  grid-row: 4;
   text-align: center;
 }
 .footer {

@@ -125,4 +125,19 @@ article p, article ul{
 }
 /* Grid footer END */
 /* Media queries START */
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+  .grid-content {
+    grid-template-columns: 15% 70% 15%;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 1024px) {
+  .grid-content {
+    grid-template-columns: 20% 60% 20%;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 1440px) {
+  .grid-content {
+    grid-template-columns: 25% 50% 25%;
+  }
+}
 /* Media queries END */

@@ -42,7 +42,7 @@ body {
 .nav-link:hover {
   color: #FFB7C7;
 }
-[class*="nav-"] {
+.nav-link, .nav-1, .nav-2, .nav-3 {
   height: 100%;
   width: 100%;
 }
@@ -77,13 +77,14 @@ body {
 }
 .aside-left {
   grid-column: 1;
-  grid-row-start: 1;
   grid-row-end: auto;
+  grid-row-start: 1;
 }
 .aside-right {
   grid-column: 3;
-  grid-row-start: 1;
   grid-row-end: auto;
+  grid-row-start: 1;
+
 }
 /* Center boxes */
 .center-1, .center-2, .center-3 {

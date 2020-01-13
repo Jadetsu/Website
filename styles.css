@@ -28,9 +28,9 @@ body {
   background: #23272A;
   display: grid;
   grid-row: 1;
+  grid-template-columns: auto auto auto;
   justify-content: end;
   text-align: center;
-  grid-template-columns: auto auto auto;
 }
 .nav-link {
   align-content: center;
@@ -40,12 +40,12 @@ body {
   padding: 0 1vw;
   text-decoration: none;
 }
-.nav-link:hover {
-  color: #FBBED9;
-}
-.nav-link, .nav-1, .nav-2, .nav-3 {
+.nav-link {
   height: 100%;
   width: 100%;
+}
+.nav-link:hover {
+  color: #FBBED9;
 }
 /* Grid nav END */
 /* Grid pic START*/
@@ -102,25 +102,27 @@ article p, article ul{
   text-align: center;
 }
 .linkContainer {
-  display: grid;
-  justify-content: center;
   align-content: center;
-  grid-template-columns: auto auto auto;
+  display: grid;
   grid-gap: 3vh 3vh;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
 }
 .contLink {
-  display: grid;
   align-content: center;
+  display: grid;
   justify-content: center;
   text-align: center;
   text-decoration: none;
+}
+.contLink {
   height: 100%;
   width: 100%;
 }
 .linkDiv {
+  background-color: #FFFFFF;
   height: 16vh;
   width: 16vh;
-  background-color: #FFFFFF;
 }
 .linkDiv:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

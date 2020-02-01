@@ -6,7 +6,7 @@
   font-size: 2.3vh;
 }
 * a {
-  color: #FDA7CF;
+  color: #fda7cf;
 }
 body {
   margin: 0;
@@ -19,7 +19,7 @@ body {
 .grid-main {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 5vh 28vh auto 5vh;
+  grid-template-rows: 28vh 5vh auto 5vh;
 }
 /* Skeleton grid END */
 /* Grid nav START */
@@ -27,9 +27,9 @@ body {
   align-content: center;
   background: #23272A;
   display: grid;
-  grid-row: 1;
+  grid-row: 2;
   grid-template-columns: auto auto auto;
-  justify-content: end;
+  justify-content: center;
   text-align: center;
 }
 .nav-link {
@@ -55,7 +55,7 @@ body {
   background-image: url(assets/sky_blur.webp);
   background-size: cover;
   display: grid;
-  grid-row: 2;
+  grid-row: 1;
   text-align: center;
 }
 /* Grid pic END*/
